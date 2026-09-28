@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/scoreunit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Score validation gates for unit inputs before they hit prod.",
+  "bin": {
+    "scoreunit": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/scoreunit.git"
+  },
+  "homepage": "https://theworker02.github.io/scoreunit/",
+  "keywords": [
+    "score",
+    "unit",
+    "validate",
+    "cli",
+    "toolkit"
+  ]
+}
